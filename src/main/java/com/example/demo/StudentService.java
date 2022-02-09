@@ -9,7 +9,7 @@ import java.time.*;
 @Service
 public class StudentService {
 
-    public List<Student> hello() {
+    public List<Student> getStudents() {
         return List.of(
                 new Student(
                         1L,
@@ -19,7 +19,7 @@ public class StudentService {
                         21));
     }
 
-    public List<Student> getStudents() {
-        return null;
+    public String hello() {
+        return "Hello World";
     }
 }
